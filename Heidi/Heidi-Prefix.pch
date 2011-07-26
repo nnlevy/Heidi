@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Heidi' target in the 'Heidi' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

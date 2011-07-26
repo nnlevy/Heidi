@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9957F3913DF26750088A3F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9957F3813DF26750088A3F4 /* Cocoa.framework */; };
+		E9957F4513DF26750088A3F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9957F4413DF26750088A3F4 /* main.m */; };
+		E9957F4C13DF26750088A3F4 /* HeidiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9957F4B13DF26750088A3F4 /* HeidiAppDelegate.m */; };
+		E9957F4F13DF26750088A3F4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9957F4D13DF26750088A3F4 /* MainMenu.xib */; };
+		E9DEC67613DF3DDD0041AD4D /* heidi.icns in Resources */ = {isa = PBXBuildFile; fileRef = E9DEC67513DF3DDD0041AD4D /* heidi.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9957F3413DF26750088A3F4 /* Heidi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heidi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9957F3813DF26750088A3F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E9957F3B13DF26750088A3F4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E9957F3C13DF26750088A3F4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E9957F3D13DF26750088A3F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9957F4013DF26750088A3F4 /* Heidi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Heidi-Info.plist"; sourceTree = "<group>"; };
+		E9957F4413DF26750088A3F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9957F4613DF26750088A3F4 /* Heidi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Heidi-Prefix.pch"; sourceTree = "<group>"; };
+		E9957F4A13DF26750088A3F4 /* HeidiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeidiAppDelegate.h; sourceTree = "<group>"; };
+		E9957F4B13DF26750088A3F4 /* HeidiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeidiAppDelegate.m; sourceTree = "<group>"; };
+		E9957F4E13DF26750088A3F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E9DEC67513DF3DDD0041AD4D /* heidi.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = heidi.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9957F3113DF26750088A3F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9957F3913DF26750088A3F4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9957F2913DF26750088A3F4 = {
+			isa = PBXGroup;
+			children = (
+				E9957F3E13DF26750088A3F4 /* Heidi */,
+				E9957F3713DF26750088A3F4 /* Frameworks */,
+				E9957F3513DF26750088A3F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9957F3513DF26750088A3F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9957F3413DF26750088A3F4 /* Heidi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9957F3713DF26750088A3F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9957F3813DF26750088A3F4 /* Cocoa.framework */,
+				E9957F3A13DF26750088A3F4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9957F3A13DF26750088A3F4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9957F3B13DF26750088A3F4 /* AppKit.framework */,
+				E9957F3C13DF26750088A3F4 /* CoreData.framework */,
+				E9957F3D13DF26750088A3F4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E9957F3E13DF26750088A3F4 /* Heidi */ = {
+			isa = PBXGroup;
+			children = (
+				E9DEC67513DF3DDD0041AD4D /* heidi.icns */,
+				E9957F4A13DF26750088A3F4 /* HeidiAppDelegate.h */,
+				E9957F4B13DF26750088A3F4 /* HeidiAppDelegate.m */,
+				E9957F4D13DF26750088A3F4 /* MainMenu.xib */,
+				E9957F3F13DF26750088A3F4 /* Supporting Files */,
+			);
+			path = Heidi;
+			sourceTree = "<group>";
+		};
+		E9957F3F13DF26750088A3F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9957F4013DF26750088A3F4 /* Heidi-Info.plist */,
+				E9957F4413DF26750088A3F4 /* main.m */,
+				E9957F4613DF26750088A3F4 /* Heidi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9957F3313DF26750088A3F4 /* Heidi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9957F5213DF26750088A3F4 /* Build configuration list for PBXNativeTarget "Heidi" */;
+			buildPhases = (
+				E9957F3013DF26750088A3F4 /* Sources */,
+				E9957F3113DF26750088A3F4 /* Frameworks */,
+				E9957F3213DF26750088A3F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heidi;
+			productName = Heidi;
+			productReference = E9957F3413DF26750088A3F4 /* Heidi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9957F2B13DF26750088A3F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = GratisPrint.nl;
+			};
+			buildConfigurationList = E9957F2E13DF26750088A3F4 /* Build configuration list for PBXProject "Heidi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9957F2913DF26750088A3F4;
+			productRefGroup = E9957F3513DF26750088A3F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9957F3313DF26750088A3F4 /* Heidi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9957F3213DF26750088A3F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9957F4F13DF26750088A3F4 /* MainMenu.xib in Resources */,
+				E9DEC67613DF3DDD0041AD4D /* heidi.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9957F3013DF26750088A3F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9957F4513DF26750088A3F4 /* main.m in Sources */,
+				E9957F4C13DF26750088A3F4 /* HeidiAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9957F4D13DF26750088A3F4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9957F4E13DF26750088A3F4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9957F5013DF26750088A3F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E9957F5113DF26750088A3F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E9957F5313DF26750088A3F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heidi/Heidi-Prefix.pch";
+				INFOPLIST_FILE = "Heidi/Heidi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9957F5413DF26750088A3F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heidi/Heidi-Prefix.pch";
+				INFOPLIST_FILE = "Heidi/Heidi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9957F2E13DF26750088A3F4 /* Build configuration list for PBXProject "Heidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9957F5013DF26750088A3F4 /* Debug */,
+				E9957F5113DF26750088A3F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9957F5213DF26750088A3F4 /* Build configuration list for PBXNativeTarget "Heidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9957F5313DF26750088A3F4 /* Debug */,
+				E9957F5413DF26750088A3F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9957F2B13DF26750088A3F4 /* Project object */;
+}
